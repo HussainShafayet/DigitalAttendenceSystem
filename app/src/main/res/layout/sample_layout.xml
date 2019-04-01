@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:padding="10dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textColor="#ff22"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:text="Name : Kawsar Ahmed"
+        android:layout_marginTop="5dp"
+        android:id="@+id/nametextviewid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textColor="#44ea12"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:text="Name : Kawsar Ahmed"
+        android:layout_marginTop="5dp"
+        android:id="@+id/subjecttextviewid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:textColor="#0b17f2"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:text="Age : 23"
+        android:layout_marginTop="5dp"
+        android:id="@+id/agetextviewid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:text="Age : 23"
+        android:layout_marginTop="5dp"
+        android:id="@+id/referencetextviewid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

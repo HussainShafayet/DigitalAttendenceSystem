@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Digital hajirakatha</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string-array name="array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="spinner_value">
+
+        <item>CSE_2015-16</item>
+        <item>EEE_2015-16</item>
+        <item>CIVIL_2015-16</item>
+
+        <item>CSE_2014-15</item>
+        <item>EEE_2014-15</item>
+        <item>CIVIL_2014-15</item>
+
+        <item>CSE_2016-17</item>
+        <item>EEE_2016-17</item>
+        <item>CIVIL_2016-17</item>
+
+
+        <item>CSE_2017-18</item>
+        <item>EEE_2017-18</item>
+        <item>CIVIL_2017-18</item>
+
+
+        <item>CSE_2018-19</item>
+        <item>EEE_2018-19</item>
+        <item>CIVIL_2018-19</item>
+
+
+    </string-array>
+</resources>

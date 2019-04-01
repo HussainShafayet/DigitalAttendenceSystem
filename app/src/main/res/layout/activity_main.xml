@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#22b2ff"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+  <EditText
+     android:layout_marginTop="50dp"
+      android:textColor="#ffffff"
+      android:textColorHint="#ffffff"
+      android:hint="Email"
+      android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+      android:inputType="textEmailAddress"
+      android:id="@+id/signInEmailEditTextId"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+
+    <EditText
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:hint="Password"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:inputType="textPassword"
+        android:id="@+id/signInPasswordEditTextId"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:id="@+id/signInButtonId"
+        android:layout_marginTop="20dp"
+        android:text="Sign In"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Are You Not Registered ? Sign Up"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:id="@+id/signUpTextViewId"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+      <ProgressBar
+          android:id="@+id/progressbarId1"
+          android:visibility="gone"
+          android:layout_gravity="center"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+
+
+</LinearLayout>
